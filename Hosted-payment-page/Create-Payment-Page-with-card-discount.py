@@ -11,4 +11,4 @@ response = requests.request("POST", url, headers=headers, data=payload)
 
 json_object = json.loads(response.text)
 
-print("PayTabs Url is " + json_object["redirect_url"])
+print("ClickPay Url is " + json_object["redirect_url"])
